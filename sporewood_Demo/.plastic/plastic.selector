@@ -1,0 +1,4 @@
+repository "sporewood_Demo@unity_azQ7AibS0Ep_GQ@cloud"
+  path "/"
+    smartbranch "/main/elder_house" 
+     

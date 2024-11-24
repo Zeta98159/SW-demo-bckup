@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 93bcc54aeb25c8443afaf36d08f96dd7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 2227
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214455f9db13b9943829f5603fa5eb39
+      internalID: 1963466171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2228
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c73d39eea2b5c4bb21a29f4e2ee8c0
+      internalID: -1333519943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 2226
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e0c50aba464654e90c12e480020773
+      internalID: 936896642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 2227
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21f639b45af5f94b8ba2ee8fec6bd7a
+      internalID: -894141531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 2224
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b88e24b7bd5e44fb0ce77c71bc60b2
+      internalID: -967868356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1212
+        width: 438
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e758f1d75a6287f4499b3f910ca00624
+      internalID: -863822057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1212
+        width: 390
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0b2e64824eaa1479b01d7c5de8f71a
+      internalID: 917410625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2221
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3619fba2300cae4da4f7a5c4c3bdd68
+      internalID: -1011889948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1211
+        width: 444
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d12e37fc8c7340488a970f2228242ec
+      internalID: 325708283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1212
+        width: 394
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd847eb25939316498624b55282f01cf
+      internalID: 1345439833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 1212
+        width: 446
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda7038d4b18b614f9981b7bd2cc8cc8
+      internalID: 659284054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1211
+        width: 389
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87495b3f1d6d76942a727f05070bf4b8
+      internalID: -1539462181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1126
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43423ef66d59844a78e25edcc39b68
+      internalID: -481157046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1125
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7bfda78e0f13245be39009d35e8053
+      internalID: 1707031673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3254
+        y: 1130
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db2068c2d3d3bc4e85afa6d5b5f656b
+      internalID: 1173733471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1125
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fd84eed20f7ae41801ba6ad83d3adc
+      internalID: 1747915410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1122
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f34d1f83a66fb4787b2b78e51113b4
+      internalID: 52434542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 113
+        width: 390
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1c65c99e9694e40852275a7332b374
+      internalID: 1117895794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 110
+        width: 444
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b621408ed23f28a409e7d1281240447a
+      internalID: 1749271779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1119
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d650284851906254980f188f73ba5eaa
+      internalID: -551152106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 111
+        width: 390
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462341b800c619d43be86b515b164b25
+      internalID: 425544830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 111
+        width: 436
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f558d9c6512d1e4db7a5a44c323f6a4
+      internalID: -2104083490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 110
+        width: 392
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6fc55c0fd65a4eab71acb4880a35a
+      internalID: 144661154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViridiaTestSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 108
+        width: 446
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7770440547e5716459f6e4b69cdab09b
+      internalID: -454300057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ViridiaTestSpriteSheet_0: 1963466171
+      ViridiaTestSpriteSheet_1: -1333519943
+      ViridiaTestSpriteSheet_10: 659284054
+      ViridiaTestSpriteSheet_11: -1539462181
+      ViridiaTestSpriteSheet_12: -481157046
+      ViridiaTestSpriteSheet_13: 1707031673
+      ViridiaTestSpriteSheet_14: 1173733471
+      ViridiaTestSpriteSheet_15: 1747915410
+      ViridiaTestSpriteSheet_16: 52434542
+      ViridiaTestSpriteSheet_17: 1117895794
+      ViridiaTestSpriteSheet_18: 1749271779
+      ViridiaTestSpriteSheet_19: -551152106
+      ViridiaTestSpriteSheet_2: 936896642
+      ViridiaTestSpriteSheet_20: 425544830
+      ViridiaTestSpriteSheet_21: -2104083490
+      ViridiaTestSpriteSheet_22: 144661154
+      ViridiaTestSpriteSheet_23: -454300057
+      ViridiaTestSpriteSheet_3: -894141531
+      ViridiaTestSpriteSheet_4: -967868356
+      ViridiaTestSpriteSheet_5: -863822057
+      ViridiaTestSpriteSheet_6: 917410625
+      ViridiaTestSpriteSheet_7: -1011889948
+      ViridiaTestSpriteSheet_8: 325708283
+      ViridiaTestSpriteSheet_9: 1345439833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
