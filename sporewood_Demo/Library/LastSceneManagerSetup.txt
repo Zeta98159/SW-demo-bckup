@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/mainMenuScreen.unity
+- path: Assets/Scenes/mushroomPath.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
