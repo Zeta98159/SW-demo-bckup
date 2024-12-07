@@ -182,3 +182,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3836.641161 seconds.
+  path: Assets/Scenes/mushroomPath.unity
+  artifactKey: Guid(71cb9fcbd4ada69478e0ac33bc42aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mushroomPath.unity using Guid(71cb9fcbd4ada69478e0ac33bc42aa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c80d57b5b7a04d6a05e0302802392e') in 0.003913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.425394 seconds.
+  path: Assets/Scenes/outsideHouse.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/outsideHouse.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0afa1583726af5ee7eaa7e8dcc04454') in 0.000810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.374503 seconds.
+  path: Assets/Scenes/vHouse.unity
+  artifactKey: Guid(c2821b404ead5704da0ad047626afcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/vHouse.unity using Guid(c2821b404ead5704da0ad047626afcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa355ea37319ee17485d44ba323cef3c') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.819214 seconds.
+  path: Assets/Scenes/gatherPlain.unity
+  artifactKey: Guid(de93e0cb5199e0a4e9f955795adef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/gatherPlain.unity using Guid(de93e0cb5199e0a4e9f955795adef387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c1f79b4c5241ce090dc2348f811c23') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.895217 seconds.
+  path: Assets/Scenes/elderHouse.unity
+  artifactKey: Guid(8e3f9a84f1f6e3e4db18fd2f13a684cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/elderHouse.unity using Guid(8e3f9a84f1f6e3e4db18fd2f13a684cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e92b07996f70ce8d048f412902df49') in 0.001008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 80.358198 seconds.
+  path: Assets/Scenes/MyceliumForest.unity
+  artifactKey: Guid(31bc41d23fc293d4b8dfd29a584afea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MyceliumForest.unity using Guid(31bc41d23fc293d4b8dfd29a584afea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5079896b886a0a25f49e1e42082728') in 0.001222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
