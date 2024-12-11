@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MyceliumForest.unity
+- path: Assets/Scenes/outsideHouse.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
