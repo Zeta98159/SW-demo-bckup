@@ -6,10 +6,15 @@ Library\Bee\artifacts\mvdfrm\Unity.2D.SpriteShape.Runtime.ref.dll_371409BB7D882E
 Library\Bee\artifacts\mvdfrm\Unity.2D.Tilemap.Extras.ref.dll_A593BB962D7D7DA2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_14316E70964BB953.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Collections.ref.dll_914F3C16C2C534D8.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Formats.Alembic.Runtime.ref.dll_960103C420C46074.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Formats.Fbx.Runtime.ref.dll_AADE31D72B0AB607.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ForUI.ref.dll_72EE3CA5CEB6E69B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_29109081F030768C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEngineBridge.001.ref.dll_9031ADE18CD0CF4E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_14D1A32168A0AD59.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.Base.ref.dll_63987A53FC4131C4.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Recorder.ref.dll_09282D27964481A1.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Sequences.ref.dll_52A796E3C2293A55.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_B085F143991618E6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_54050F91DBE64E14.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm
