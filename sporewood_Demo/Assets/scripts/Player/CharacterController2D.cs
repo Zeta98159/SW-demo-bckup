@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 
-// This script is a basic 2D character controller that allows
-// the player to run and jump. It uses Unity's new input system,
-// which needs to be set up accordingly for directional movement
-// and jumping buttons.
+
 
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
 {
-
+    public LayerMask groundLayer;
     public Animator animator;
 
     [Header("Movement Params")]
@@ -21,17 +18,16 @@ public class CharacterController2D : MonoBehaviour
     private BoxCollider2D coll;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
-
     // other
-    private bool isGrounded = false;
-
+    private bool isGrounded();
     private void Awake()
     {
         coll = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = gravityScale;
+        rb.gravityScale = gravityScale > 0 ? gravityScale : 2.0f; // Default gravity scale
         sr = GetComponent<SpriteRenderer>();
     }
+
 
     private void FixedUpdate()
     {
@@ -47,51 +43,51 @@ public class CharacterController2D : MonoBehaviour
         HandleJumping();
     }
 
-    private void UpdateIsGrounded()
+    void UpdateIsGrounded()
     {
         Bounds colliderBounds = coll.bounds;
         float colliderRadius = coll.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
-        Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
-        // Check if player is grounded
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
-        // Check if any of the overlapping colliders are not player collider, if so, set isGrounded to true
-        this.isGrounded = false;
-        if (colliders.Length > 0)
-        {
-            for (int i = 0; i < colliders.Length; i++)
-            {
-                if (colliders[i] != coll)
-                {
-                    this.isGrounded = true;
-                    break;
-                }
-            }
-        }
+        Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, -colliderRadius * 0.9f, 0);
+
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius, groundLayer);
+        isGrounded = colliders.Any(c => c != coll); // Ensure ground layer is used
     }
 
-    private void HandleHorizontalMovement()
+
+
+    void HandleHorizontalMovement()
     {
         Vector2 moveDirection = InputManager.GetInstance().GetMoveDirection();
-        rb.velocity = new Vector2(moveDirection.x * runSpeed, moveDirection.y * runSpeed);//rb.velocity.y);
+        rb.velocity = new Vector2(moveDirection.x * runSpeed, rb.velocity.y); // Preserve vertical velocity
         animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("Yspeed", rb.velocity.y);
-        sr.flipX = (rb.velocity.x < 0.0f) ? false : true;
+        sr.flipX = rb.velocity.x < 0.0f;
     }
 
-    private void HandleVerticalMovement()
+
+    void HandleVerticalMovement()
     {
         // This method is never called, as I rolled up vertical movement in the horizontal call
         Vector2 moveDirection = InputManager.GetInstance().GetMoveDirection();
     }
 
-    private void HandleJumping()
+    void HandleJumping()
     {
-        bool jumpPressed = InputManager.GetInstance().GetJumpPressed();
-        if (isGrounded && jumpPressed)
+        if (isGrounded && InputManager.GetInstance().GetJumpPressed())
         {
-            isGrounded = false;
-            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed); // Apply jump force
         }
+    }
+    private void OnDrawGizmos()
+    {
+    if (coll != null)
+        {
+        Gizmos.color = Color.green;
+        Bounds colliderBounds = coll.bounds;
+        float colliderRadius = coll.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
+        Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, -colliderRadius * 0.9f, 0);
+        Gizmos.DrawWireSphere(groundCheckPos, colliderRadius);
+       }
     }
 
 }
