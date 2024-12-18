@@ -8,7 +8,7 @@ FinalBuildTest Folder: The latest demo for SporeWood 12/18/2024: AJ
 
  How-to-Play
  movement: ASWD
- Interact: I
+ Interact: I button
  Spacebar: dialog
 
  Exit game by using Task Manager or clicking quit game on main menu.
