@@ -7,6 +7,9 @@ TagManager:
   - DialogCanvas
   - DialogBoxHandle
   - Mamabot
+  - vHouse
+  - ElderHouse
+  - Elder
   layers:
   - Default
   - TransparentFX

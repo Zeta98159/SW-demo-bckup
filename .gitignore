@@ -84,3 +84,8 @@ sporewood_Demo/Library/Bee/fullprofile.json
 sporewood_Demo/Library/Bee/fullprofile.json
 *.json
 /sporewood_Demo/Assets/scripts
+*.lck
+*.operation
+*.json
+*.json
+*.json

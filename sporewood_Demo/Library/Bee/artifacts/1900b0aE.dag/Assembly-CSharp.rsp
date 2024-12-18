@@ -406,6 +406,7 @@
 "Assets/scripts/MamabotMovement.cs"
 "Assets/scripts/Player/CharacterController2D.cs"
 "Assets/scripts/playerWalk.cs"
+"Assets/scripts/quitgame.cs"
 "Assets/scripts/startGame.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
