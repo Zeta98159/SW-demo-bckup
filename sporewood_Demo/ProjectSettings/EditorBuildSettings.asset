@@ -20,8 +20,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mushroomPath.unity
     guid: 71cb9fcbd4ada69478e0ac33bc42aa14
-  - enabled: 1
-    path: Assets/Scenes/gatherPlain.unity
-    guid: de93e0cb5199e0a4e9f955795adef387
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cb7129a7164934c6cae4ffaf071cbf6f, type: 2}

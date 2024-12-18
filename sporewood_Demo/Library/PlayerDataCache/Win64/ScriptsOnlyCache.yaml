@@ -11,9 +11,6 @@ ScriptsOnlyBuild:
     - MainMenu
     - MamabotMovement
     - ScrollScript
-    Cinemachine.dll:
-    - Cinemachine.CinemachinePipeline
-    - Cinemachine.CinemachineVirtualCamera
     InkEditor.dll:
     - Ink.UnityIntegration.InkCompiler
     - Ink.UnityIntegration.InkLibrary
@@ -26,15 +23,21 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.Formats.Fbx.Editor.dll:
-    - UnityEditor.Formats.Fbx.Exporter.ExportSettings
+    Unity.2D.Tilemap.Extras.Editor.dll:
+    - UnityEditor.Tilemaps.GameObjectBrush
+    - UnityEditor.Tilemaps.GroupBrush
+    - UnityEditor.Tilemaps.LineBrush
+    - UnityEditor.Tilemaps.RandomBrush
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -45,8 +48,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.PlasticSCM.Editor.dll:
     - Unity.PlasticSCM.Editor.PlasticWindow
-    Unity.Recorder.Editor.dll:
-    - UnityEditor.Recorder.RecorderPreferencesSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Sequences.Editor.dll:
@@ -75,10 +76,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
-    Cinemachine:
-    - Cinemachine.CinemachineBrain/VcamActivatedEvent
-    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
-    - Cinemachine.LensSettings
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
     - UnityEngine.InputSystem.InputActionMap
@@ -142,6 +139,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: InputManager
     methodName: SubmitPressed
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Selectable
+    methodName: Select
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Object
+    methodName: set_name
   - assembly: Assembly-CSharp
     fullTypeName: InputManager
     methodName: MovePressed
@@ -169,18 +172,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: InputManager
     methodName: SubmitPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: InputManager
-    methodName: MovePressed
-  - assembly: Assembly-CSharp
-    fullTypeName: InputManager
-    methodName: InteractButtonPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: InputManager
-    methodName: SubmitPressed
-  - assembly: Assembly-CSharp
-    fullTypeName: InputManager
-    methodName: JumpPressed
   - assembly: Assembly-CSharp
     fullTypeName: InputManager
     methodName: MovePressed
@@ -233,29 +224,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1686}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 1690}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 4674}
+      Script: {instanceID: 4678}
     - Class: 114
-      Script: {instanceID: 5040}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 7340}
+      Script: {instanceID: 7344}
     - Class: 114
-      Script: {instanceID: 8264}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 8554}
+      Script: {instanceID: 8268}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 8558}
     - Class: 114
-      Script: {instanceID: 10522}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 10526}
+    - Class: 114
+      Script: {instanceID: 11430}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -273,71 +266,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/gatherPlain.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 678}
-    - Class: 114
-      Script: {instanceID: 1690}
-    - Class: 114
-      Script: {instanceID: 2466}
-    - Class: 114
-      Script: {instanceID: 3186}
-    - Class: 114
-      Script: {instanceID: 3278}
-    - Class: 114
-      Script: {instanceID: 3378}
-    - Class: 114
-      Script: {instanceID: 4674}
-    - Class: 114
-      Script: {instanceID: 5040}
-    - Class: 114
-      Script: {instanceID: 9702}
-    - Class: 114
-      Script: {instanceID: 10522}
-    - Class: 114
-      Script: {instanceID: 10804}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 156049354
-      Script: {instanceID: 0}
-    - Class: 483693784
-      Script: {instanceID: 0}
-    - Class: 1839735485
       Script: {instanceID: 0}
     Assets/Scenes/mainMenuScreen.unity:
     - Class: 1
@@ -363,31 +291,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1686}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 2590}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 4042}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5548}
     - Class: 114
-      Script: {instanceID: 5718}
+      Script: {instanceID: 5722}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6140}
     - Class: 114
-      Script: {instanceID: 6148}
+      Script: {instanceID: 6152}
     - Class: 114
-      Script: {instanceID: 7340}
+      Script: {instanceID: 7344}
     - Class: 114
-      Script: {instanceID: 8264}
+      Script: {instanceID: 8268}
     - Class: 114
-      Script: {instanceID: 8554}
+      Script: {instanceID: 8558}
     - Class: 114
-      Script: {instanceID: 9092}
+      Script: {instanceID: 9096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -448,25 +376,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1690}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 4618}
+      Script: {instanceID: 4622}
     - Class: 114
-      Script: {instanceID: 4674}
+      Script: {instanceID: 4678}
     - Class: 114
-      Script: {instanceID: 5040}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 8048}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 10804}
+      Script: {instanceID: 10808}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 11430}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -507,39 +435,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1686}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 1690}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 4674}
+      Script: {instanceID: 4042}
     - Class: 114
-      Script: {instanceID: 4988}
+      Script: {instanceID: 4678}
     - Class: 114
-      Script: {instanceID: 5040}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 7340}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 8048}
+      Script: {instanceID: 7344}
     - Class: 114
-      Script: {instanceID: 8264}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 8554}
+      Script: {instanceID: 8268}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 8558}
     - Class: 114
-      Script: {instanceID: 9702}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 10522}
+      Script: {instanceID: 9706}
     - Class: 114
-      Script: {instanceID: 10804}
+      Script: {instanceID: 10526}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 10808}
+    - Class: 114
+      Script: {instanceID: 11430}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -586,19 +516,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1690}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 2466}
+      Script: {instanceID: 2468}
     - Class: 114
-      Script: {instanceID: 4674}
+      Script: {instanceID: 4678}
     - Class: 114
-      Script: {instanceID: 4988}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5040}
+      Script: {instanceID: 5044}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 9676}
     - Class: 114
-      Script: {instanceID: 10522}
+      Script: {instanceID: 10526}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1102,6 +1032,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: quitgame
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2531,6 +2467,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/vHouse.unity
   - Assets/Scenes/elderHouse.unity
   - Assets/Scenes/mushroomPath.unity
-  - Assets/Scenes/gatherPlain.unity
-  playerPath: C:/Users/andre/Documents/GitHub/SW-demo-bckup/sporewood_Demo/Game Builds/12132024
-    build demo CF/sporewood_Demo.exe
+  playerPath: C:/Users/andre/Documents/GitHub/SW-demo-bckup/sporewood_Demo/Game Builds/FinalBuildTest/sporewood_Demo.exe
